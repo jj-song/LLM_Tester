@@ -1,0 +1,51 @@
+Level 1: Simple Methods
+Characteristics:
+
+Functionality: Calculates the area of a rectangle using its length and width.
+Control Flow: Linear flow with no conditional statements or loops.
+Parameters: No parameters are needed in this method, as it relies on the properties of the class.
+Error Handling: Minimal or no error handling is required.
+Dependencies: No external dependencies or calls to other methods or libraries.
+
+
+Level 2: Intermediate Methods
+Characteristics:
+
+Functionality: Calculates the total price of items in a shopping cart and applies a discount if applicable.
+Control Flow: Includes a basic loop to iterate through items and a conditional statement to check for a discount.
+Parameters: Accepts a boolean parameter to determine whether to apply a discount.
+Error Handling: There is no specific error handling in this example, but basic error handling could be added if necessary.
+Dependencies: Calls to another simple method within the same class to apply the discount.
+
+
+
+Level 3: Advanced Methods
+Characteristics:
+
+Functionality: Implements Dijkstra's algorithm to find the shortest path between two nodes in a graph.
+Control Flow: Includes multiple nested loops, conditional statements, and exit conditions.
+Parameters: Accepts the start and finish nodes as input parameters.
+Error Handling: Handles scenarios where a path may not be found.
+Dependencies: Relies on the internal structure of the graph.
+
+
+
+Level 4: Enterprise-Level Methods
+Characteristics:
+
+Functionality: Retrieves user information from a database, applies business logic, handles various error scenarios, and logs actions.
+Control Flow: Includes multiple pathways based on conditions and error handling.
+Parameters: Accepts a user ID as an input parameter.
+Error Handling: Comprehensive error handling, including specific handling for database-related exceptions and general exceptions.
+Dependencies: Interaction with a user repository (data access layer) and a logging system.
+
+
+
+Level 5: Highly Complex Methods
+Characteristics:
+
+Functionality: Performs a complex matrix multiplication operation, which is a common problem in various scientific and engineering applications.
+Control Flow: Utilizes parallel processing to concurrently multiply the rows, making the logic more complex and introducing potential synchronization issues.
+Parameters: Accepts two matrices as input parameters, which are multidimensional arrays of doubles.
+Error Handling: Includes an error check to ensure that the matrices are compatible for multiplication.
+Dependencies: Relies on the System.Threading.Tasks namespace for parallel processing.
